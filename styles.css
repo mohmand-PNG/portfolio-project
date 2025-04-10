@@ -4,6 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 body {
   background-color: #000;
@@ -23,32 +28,6 @@ header {
 .logo {
   font-size: 1rem;
 }
-
-/* .contact-btn {
-  background-color: #fce5b2;
-  border: none;
-  padding: 10px 20px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #000;
-  border-radius: 8px;
-  clip-path: polygon(
-    10% 0%,
-    90% 0%,
-    100% 20%,
-    100% 80%,
-    90% 100%,
-    10% 100%,
-    0% 80%,
-    0% 20%
-  );
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.contact-btn:hover {
-  background-color: #e6ce9c;
-} */
 
 .hero {
   display: flex;
@@ -150,9 +129,7 @@ p {
     margin-left: 0;
   }
 }
-/* https://codesandbox.io/p/sandbox/hopeful-cerf-z2klt3?file=%2Fpublic%2Findex.html%3A4%2C29 */
-/* From Uiverse.io by marcelodolza */
-/* From Uiverse.io by joe-watson-sbf */
+
 .btn {
   font-size: 17px;
   background: transparent;
@@ -529,3 +506,5 @@ p {
   background-color: rgb(245, 236, 188);
   margin-top: 5px;
 }
+
+/* making sure everything is completely responsive */
